@@ -1,0 +1,19 @@
+
+<div class="row">
+	<h4>{{model.name}}</h4>
+	<img src="/img/{{model.image}}" alt="{{mode.name}}" class="img-responsive ">
+	<br>
+	<p> Rating : {{mode.rating}}</p>
+	<p>
+	  {{model.description}}
+	</p>
+	
+		<p>
+			
+			{{#link-to "item.nutrition"}}Nutrition Fact{{/link-to}}
+		</p>
+		{{outlet}}
+	
+
+</div>
+

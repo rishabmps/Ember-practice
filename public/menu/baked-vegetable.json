@@ -1,0 +1,10 @@
+{
+  "id":"baked-vegetable",
+  "name":"Baked vegetable",
+  "image":"baked-vegetable.jpg",
+  "calories":430,
+  "rating":4.5,
+  "description":"Since the name contains baked, it obviously is made by baking vegetables, cheese in some sci-fi oven.",
+  "source":"https://google.com/",
+  "photographer":"Chineese Spy Satellite"
+}

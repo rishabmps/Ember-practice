@@ -1,0 +1,23 @@
+[
+  {
+     "id": "dal-makhani",
+     "name": "Dal Makhani",
+     "image": "dal-makhani.jpg",
+     "source": "https: //google.com/",
+     "photographer": "Nikon 3359"
+  },
+  {
+     "id": "paneer-do-pyaza",
+     "name": "Paneer Do Pyaza",
+     "image": "paneer-do-pyaza.jpg",
+     "source": "https: //google.com/",
+     "photographer": "Sony Expensive Camera"
+  },
+  {
+     "id": "baked-vegetable",
+     "name": "Baked Vagetable",
+     "image": "baked-vegetable.jpg",
+     "source": "https: //google.com/",
+     "photographer": "Chineese Spy Satellite"
+  }
+]
