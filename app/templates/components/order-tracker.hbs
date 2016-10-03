@@ -8,9 +8,9 @@
 	
 	  
 	{{#each-in orderManager.menuSelection as |day menuOrder|}}
-	<div {{action "setDayTo" day}}>
+	<div>
 		
-		{{day}}
+		<div onclick={{action "setDayTo" day}}>{{day}}</div>
 		<dl>
 			<dt>BreakFast</dt>
 			<dd>{{#if menuOrder.breakfast}}
