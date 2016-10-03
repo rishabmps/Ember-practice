@@ -1,0 +1,10 @@
+<div class="col-md-4">
+	<li>
+		<h4>{{item.name}}</h4>
+		<img src="/img/{{item.image}} " class="img-thumbnail img-responsive" alt="{{item.name}}">
+		<p class="text-center">
+			{{#link-to  'item' item.id}}Details{{/link-to}}
+		</p>
+	</li>
+</div>
+{{yield}}
