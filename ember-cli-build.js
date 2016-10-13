@@ -6,7 +6,11 @@ module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
   });
-
+  app.import("public/date-picker/ember-date-picker.min.css");
+  app.import("public/date-picker/ember-date-picker.min.js");
+  app.import("public/date-picker/ember-spin-box.css");
+  app.import("public/date-picker/ember-spin-box.min.js");
+  app.import("public/date-picker/moment.min.css");
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
